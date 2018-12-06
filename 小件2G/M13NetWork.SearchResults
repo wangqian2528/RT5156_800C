@@ -1,0 +1,30 @@
+---- gucSIM800CID Matches (29 in 1 files) ----
+SIM800.c (iar\source\m13network):uint8_t gucSIM800CID[20] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};   /*长度固定为20，CCID编号，也作为按摩椅编号*/
+SIM800.c (iar\source\m13network):        if(buffer[i] != gucSIM800CID[i])
+SIM800.c (iar\source\m13network):            if(buffer[i] > gucSIM800CID[i])
+SIM800.c (iar\source\m13network):                value = buffer[i] - gucSIM800CID[i];
+SIM800.c (iar\source\m13network):                value = gucSIM800CID[i] - buffer[i];
+SIM800.c (iar\source\m13network):                for(i = 0; i < 20; i++) gucSIM800CID[i] = CommandLine[1][i];
+SIM800.c (iar\source\m13network):                gucSIM800TxData[gucSIM800TxSize++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):                gucSIM800TxData[gucSIM800TxSize++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):                for(i = 0; i < 20; i++) gucSIM800TxData[gucSIM800TxSize++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):                for(i = 0; i < 20; i++) gucSIM800TxData[gucSIM800TxSize++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) gucSIM800TxData[gucSIM800TxSize++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):    for(i = 0; i < 20; i++) gucSIM800CID[i] = 0;
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];
+SIM800.c (iar\source\m13network):            for(i = 0; i < 20; i++) buffer[length++] = gucSIM800CID[i];

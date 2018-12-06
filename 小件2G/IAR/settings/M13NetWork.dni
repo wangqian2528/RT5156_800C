@@ -1,0 +1,175 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[DebugChecksum]
+Checksum=-2021842365
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2250000
+Prescaler=32
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[CodeCoverage]
+Enabled=_ 0
+[watch_formats]
+Fmt0={W}42:gucAP89085Status	3	0
+Fmt1={W}42:gucBase64Length	3	0
+Fmt2={W}42:gucChairRunningFlag	3	0
+Fmt3={W}42:gucChairStopRunCount	3	0
+Fmt4={W}42:gucChairWorkEnable	3	0
+Fmt5={W}42:gucFTPExtGetReady	3	0
+Fmt6={W}42:gucFTPGetPathLength	3	0
+Fmt7={W}42:gucFTPPasswordLength	3	0
+Fmt8={W}42:gucFTPServerLength	3	0
+Fmt9={W}42:gucFTPUpgradeState	3	0
+Fmt10={W}42:gucHeartbeatCount	3	0
+Fmt11={W}42:gucMoneyExistFlag	3	0
+Fmt12={W}42:gucMoneyWaitReplyFlag	3	0
+Fmt13={W}42:gucMoneyWorkState	3	0
+Fmt14={W}42:gucMoneyWorkStep	3	0
+Fmt15={W}42:gucSIM800ConnectFlag	3	0
+Fmt16={W}42:gucSIM800ReplyFlag	3	0
+Fmt17={W}42:gucSIM800ReplyTime	3	0
+Fmt18={W}42:gucSIM800StartupCount	3	0
+Fmt19={W}42:gucSIM800StartupTime	3	0
+Fmt20={W}42:gucSIM800TxStep	3	0
+Fmt21={W}42:gucServerCtrlFlag	3	0
+Fmt22={W}42:gucServerReplyFlag	3	0
+Fmt23={W}42:gucSystemRunAPP	3	0
+Fmt24={W}42:gucUpdateCSQCount	3	0
+Fmt25={W}42:gucVoicePlayStep	3	0
+Fmt26={W}42:gucVoicePlayTime	3	0
+Fmt27={W}42:gulChipUnique0	4	0
+Fmt28={W}42:gulChipUnique1	4	0
+Fmt29={W}42:gulReadFlashDataHH	4	0
+Fmt30={W}42:ucMCBRunFlag	3	0
+Fmt31={W}42:ucMoneyRunFlag	3	0
+Fmt32={W}42:ucMoneyRunState	3	0
+Fmt33={W}42:ucSIM800RunFlag	3	0
+Fmt34={W}42:ucSimulatorDemo	3	0
+Fmt35={W}42:ucSimulatorStep	3	0
+Fmt36={W}42:uiCodeCRC	4	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+Title_0=I0
+Symbol_0=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 1 "EMUL_DATA" "GSM_Demo" 0 0 0 0 4294967295
+Count=1
+[Aliases]
+A0=_ "C:\Users\rt005645\Desktop\Project\IAR\Source\emlib\inc\em_wdog.h" ""
+A1=_ "E:\工作文档\许李东V7.8版本软件\M13NetWork_SX_20170920_sim800C\Project\IAR\Source\M13NetWork\main.c" ""
+A2=_ "E:\工作文档\许李东V7.8版本软件\M13NetWork_SX_20170920_sim800C\Project\IAR\Source\emlib\inc\em_wdog.h" ""
+A3=_ "Z:\Workspace\M13NetWork\Project\IAR\Source\emlib\src\em_dma.c" ""
+Count=4
+SuppressDialog=1

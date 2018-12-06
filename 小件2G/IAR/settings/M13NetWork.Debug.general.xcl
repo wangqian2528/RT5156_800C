@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5_2\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5_2\arm\bin\armjlink2.dll" 
+
+"D:\同事文件夹\宋孝坤\5156_SIM800C\5156_800C\小件2G\IAR\Debug\Exe\M13NetWork.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5_2\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5_2\arm\config\debugger\SiliconLaboratories\Trace_EFM32LG.dmac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5_2\arm\config\flashloader\SiliconLaboratories\FlashEFM32.board" 
+
+
+
+

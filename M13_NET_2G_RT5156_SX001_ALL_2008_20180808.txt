@@ -1,0 +1,6 @@
+目标文件:C:\Users\rt005645\Desktop\5156_800C\M13_NET_2G_RT5156_SX001_ALL_2008_20180808.bin   大小:0x00020000
+各部分大小如下:
+
+索引                        文件名                                            大小              偏移量            强制插入
+ 1      C:\Users\rt005645\Desktop\5156_800C\MCUBoot.bin                     0x0000120B        0x00000000             否
+ 2      C:\Users\rt005645\Desktop\5156_800C\M13NetWork_new.bin              0x0001E000        0x00002000             否
